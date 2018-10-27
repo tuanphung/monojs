@@ -1,0 +1,13 @@
+{
+  "name": "slack-gift-app",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "../../node_modules/.bin/babel-node ./src/index.js",
+    "compile": "rm -rf ./.bin && ../../node_modules/.bin/babel src --out-dir .bin",
+    "lint": "../../node_modules/.bin/prettier --write \"./src/**/*js\""
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
