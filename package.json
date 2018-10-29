@@ -1,8 +1,8 @@
 {
   "name": "monojs",
   "scripts": {
-    "start": "lerna run start",
-    "compile": "lerna run compile",
+    "setup": "npm install && lerna bootstrap",
+    "build": "lerna run build",
     "lint": "lerna run lint",
     "clean": "lerna run clean",
     "test": "jest"
@@ -16,6 +16,7 @@
     "babel-jest": "^23.6.0",
     "jest": "^23.6.0",
     "lerna": "^3.4.3",
+    "nodemon": "^1.18.5",
     "prettier": "1.14.3",
     "regenerator-runtime": "^0.12.1"
   },

@@ -1,0 +1,11 @@
+{
+  "name": "jarvis-brain",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rm -rf ./.bin && ../../node_modules/.bin/babel src --out-dir .bin",
+    "lint": "../../node_modules/.bin/prettier --write \"./src/**/*js\""
+  },
+  "dependencies": {
+  }
+}
